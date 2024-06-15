@@ -6,3 +6,9 @@ nav{
 nav a{
   margin-right: 16px;
 }
+
+/* nav a.active{
+  color: red;
+  font : bold;
+  text-decoration: none;
+} */
