@@ -17,6 +17,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="summary" element={<Sumarry />} />
         <Route path="products" element={<Product />}>
+          <Route index element={<Featured />} />
           <Route path="featured" element={<Featured />} />
           <Route path="new" element={<New />} />
         </Route>
