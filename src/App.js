@@ -25,7 +25,8 @@ function App() {
           <Route path="new" element={<New />} />
         </Route>
         <Route path="users" element={<Users />}>
-          <Route path=":userid" element={<UserDetails />} />
+          {/* <Route path="userDetails" element={<UserDetails />} /> */}
+          <Route path=":userId" element={<UserDetails />} />
           <Route path="admin" element={<Admin />} />
         </Route>
         {/* <Route path="users/:userId" element={<UserDetails />} />
